@@ -77,7 +77,7 @@ settings file.
    class, you need to add the path to treebeard's templates in
    :django:setting:`TEMPLATE_DIRS`.
    Also you need to enable
-   ``django.core.context_processors.request``
+   ``django.template.context_processors.request``
    in the :django:setting:`TEMPLATE_CONTEXT_PROCESSORS`
    setting in your django settings file.
 
